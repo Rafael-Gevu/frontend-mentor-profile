@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'profile';
+    src: url(./fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+    
+
+
+
+
+@font-face {
+    font-family: 'buttons';
+    src: url(./fonts/Inter-Bold.ttf);
+}
+
+
+
+body {
+ background-color:#141414; 
+}
+
+
+
+
+
+
+.conteiner{   
+    box-sizing: border-box;
+    width: 378px;
+    height: 606px;
+    background-color: #1f1f1f;
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+    top: 103.5px;
+}
+
+.image img {
+    width: 120px;
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+}
+.name{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    padding-top: 20px;
+    font-family: 'profile';
+    line-height: 30px;
+}
+.name p{
+    font-size: 12px;
+    color: #c2dc54
+}
+
+p{ 
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'profile';
+}
+.buttons {
+    text-align: center;
+}
+button{
+    background-color: #333333;
+    color: white;
+    width: 260px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family:'buttons';
+}
+button:hover {
+    background-color:#7d941c ;
+    color:#141414;
+    cursor: pointer;
+}
+
+
+
